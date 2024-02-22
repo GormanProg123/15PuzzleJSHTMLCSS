@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15 Puzzle</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="fiften.png">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+      <h3>15 Puzzle</h3>
+      </div>
+    <p class="rules">Rules: By moving the knuckles, achieve the initial, correct location: <a href="https://en.wikipedia.org/wiki/15_Puzzle#/media/File:15-Puzzle_solved.png">link to the image</a>.</p>
+    <label class="steps" id="score">Steps: 0</label>
+    <div class="field">
+      <div class="square" id="c1">1</div>
+      <div class="square" id="c2">2</div>
+      <div class="square" id="c3">3</div>
+      <div class="square" id="c4">4</div>
+      <div class="square" id="c5">5</div>
+      <div class="square" id="c6">6</div>
+      <div class="square" id="c7">7</div>
+      <div class="square" id="c8">8</div>
+      <div class="square" id="c9">9</div>
+      <div class="square" id="c10">10</div>
+      <div class="square" id="c11">11</div>
+      <div class="square" id="c12">12</div>
+      <div class="square" id="c13">13</div>
+      <div class="square" id="c14">14</div>
+      <div class="square" id="c15">15</div>
+      <div class="square" id="c16"></div>
+    </div>
+    <button type="button" class="buttonrestart" id="Restart">Restart</button>
+    <div id="winMessage" class="hidden">
+      <p class="lng-win">Congratulations! You won!</p>
+  </div>
+  </div>
+    <script src="script.js"></script>
+  </body>
+</html>
